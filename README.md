@@ -1,2 +1,12 @@
-# Conditional-comments
-Conditional statements interpreted by Microsoft Internet Explorer versions 5 through 9 in HTML source code
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conditional Comments</title>
+<!--[if IE 6]>
+Special instructions for IE 6 here
+<![endif]-->
+</head>
+<body>
+<p>Document content goes here.....</p>
+</body>
+</html>
